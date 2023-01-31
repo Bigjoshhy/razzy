@@ -1,0 +1,378 @@
+*{
+    margin-top: 0px;
+    padding: 0px;
+}
+body{
+    background-color: aqua;
+}
+.main{
+    background-color: rgb(36, 32, 32);
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: -10px;
+}
+.main .wrap1{
+    width: 95%;
+    margin: 0 auto;
+}
+.wrap1 .nap{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-bottom: -10px;
+}
+.wrap1 .nap .jip h4 a{
+    text-decoration: none;
+    color: #fff;
+}
+.wrap1 .nap .jip h4 a:hover{
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+}
+.wrap1 .nap ul{
+    list-style: none;
+}
+.wrap1 .nap ul.list li{
+    display: inline;
+    padding: 5px;
+}
+.wrap1 .nap ul.list li a{
+    text-decoration: none;
+    color: #fff;
+}
+.wrap1 .nap ul.list li a:hover{
+    background-color: aqua;
+    padding: 4px;
+    border-radius: 5px;
+    color: black;
+}
+hr{
+}
+.wrap1 .nap1{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 30px 0;
+}
+.wrap1 .nap1 .sim1 img{
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 2px 3px black, 5px 5px 7px black;
+}
+table{
+    background-color: rgba(58, 54, 54, 0.427);
+    color: #fff;
+    width: 27%;
+    border: none;
+    border-left: 3px solid aqua;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+select{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+.wrap1 .nap2{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.wrap1 .nap3{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.wrap1 .nap3 .containter5{
+}
+.wrap1 .nap3 .containter5 img{
+    width: 250px;
+    height: 200px; 
+    border-radius: 5px;
+}
+.middle{
+    background-color: gray;
+    width: 95%;
+    margin: 0 auto;
+    color: #fff;
+}
+.middle .middle1{
+    width: 95%;
+    margin: 0 auto;
+}
+.middle1 .center{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.middle1 .center .pat{
+    color: aqua;
+    font-size: 9px;
+    padding-top: 50px;
+    margin-bottom: -5px;
+}
+.middle1 .center h2{
+    margin-bottom: 0px;
+}
+.middle1 .center2{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    padding-bottom: 50px;
+}
+.middle1 .center2 .contin{
+    text-align: center;
+}
+.middle .center2 .contin i{
+    background-color: black;
+    border-radius: 50%;
+}
+.middle1 .center2 .kam{
+    align-self: flex-end;
+}
+.middle1 .center2 .contin h5{
+    margin-bottom: 2px;
+}
+.wrap1 .kat{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.wrap1 .kat .kat1 img{
+    width: 250px;
+    height: 280px;
+    border-radius: 5px;
+    box-shadow: 2px 3px black, 5px 5px 7px black;
+}
+.wrap1 .kat .kat2 .com{
+    display: flex;
+    justify-content: space-between;
+}
+.wrap1 .kat .kat2{
+    width: 270px;
+    color: #fff;
+    padding-top: 20px;
+}
+.wrap1 .kat3{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.wrap1 .kat4{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.wrap1 .kat4 .lap1{
+    background-color: gray;
+    width: 250px;
+    padding: 2px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.wrap1 .kat4 .lap2{
+    width: 250px;
+}
+.wrap1 .kat5{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.wrap1 .kat5 .dat1 button{
+    background-color: aqua;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+.wrap1 .kat5 .dat1 button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.wrap1 .kat5 .dat1 button:hover{
+    background-color: hotpink;
+}
+.wrap1 .kat6{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    color: #fff;
+}
+.kat6 .useful .col-4-4 .links a{
+    display: block;
+    text-decoration: none;
+    color: dodgerblue;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+.kat6 .useful .col-4-4 .links a:hover{
+    color: aqua;
+    text-decoration: underline hotpink;
+}
+.kat6 .support .col-4-4 .links a{
+    display: block;
+    text-decoration: none;
+    color: dodgerblue;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+.kat6 .support .col-4-4 .links a:hover{
+    color: aqua;
+    text-decoration: underline hotpink;
+}
+.wrap1 .nap aside{
+    display: none;
+}
+
+@media (max-width: 42rem) {
+    .wrap1 .nap3{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrap1 .nap3 .containter5 img{
+        width: 100%;
+    }
+    .wrap1 .nap{
+        background-color: brown;
+    }
+    .wrap1 .nap .jip{
+        visibility: hidden;
+    }
+    .wrap1 .nap .list{
+        display: none;
+    }
+    .wrap1 .nap aside{
+        display: block;
+        background-color: #fff;
+        padding: 5px 5px;
+        height: 15px;
+        border-radius: 3px;
+        margin-right: 5px;
+    }
+    .wrap1 .nap1{
+        flex-direction: column;
+    }
+    .wrap1 .nap1 .sim{
+        text-align: center;
+    }
+    .wrap1 .nap1 .sim p.jap{
+        margin-left: 100px;
+        margin-bottom: 30px;
+        
+    }
+    .wrap1 .nap1 table{
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .wrap1 .nap1 .sim1 img{
+        width: 100%;
+    }
+    .wrap1 .nap2{
+        display: flex;
+        justify-content: center;
+        column-gap: 70px;
+    }
+    .wrap1 .hr1{
+        display: none;
+    }
+    .wrap1 .nap aside span.sp1{
+        background-color: gray;
+        width: 50px;
+        height: 3px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3px;
+    }
+    .wrap1 .nap aside span.sp2{
+       background-color: gray;
+        width: 50px;
+        height: 3px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3px;
+    }
+    .wrap1 .nap aside span.sp3{
+        background-color: gray;
+         width: 50px;
+         height: 3px;
+         display: flex;
+         flex-direction: column;
+     }
+     .middle{
+        padding-bottom: 100px;
+     }
+     .middle1 .center2{
+        flex-direction: column;
+        align-self: none;
+     }
+     .middle1 .center2 .kam{
+        align-self: center;
+     }
+     .wrap1 .kat{
+        flex-direction: column;
+     }
+     .wrap1 .kat .kat1{
+        margin: 0 auto;
+        margin-bottom: 20px;
+     }
+     .wrap1 .kat .kat2{
+        margin: 0 auto;
+     }
+     .wrap1 .kat .kat2 .com{
+        flex-direction: column;
+        text-align: center;
+        font-size: 50px;
+        margin-top: 30px;
+     }
+     .wrap1 .kat .kat2 .com .col{
+        margin-bottom: 30px;
+     }
+     .wrap1 .kat3{
+        display: flex;
+        justify-content: center;
+        column-gap: 70px;
+     }
+     .wrap1 .kat4{
+        flex-direction: column;
+     }
+     .wrap1 .kat4 .lap1{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+     }
+     .wrap1 .kat4 .lap2{
+        background-color: gray;
+        border-radius: 5px;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+     }
+     .wrap1 .kat5{
+        display: grid;
+        justify-content: center;
+     }
+     .wrap1 .kat5 .dat1 button{
+        width: 100%;
+     }
+     .wrap1 .kat6{
+        display: block;
+        text-align: center;
+     }
+     .wrap1 .kat6 .lorem{
+        margin-bottom: 30px;
+     }
+     .wrap1 .kat6 .lorem p{
+        display: inline-flex;
+     }
+    
+}

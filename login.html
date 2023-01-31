@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Big Josh Site</title>
+        <link rel="stylesheet" href=".css">
+    </head>
+    <style>
+body{
+    background-image: url("img/josh.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home{
+    color: black;
+    font-weight: bolder;
+    margin-left: 0px;
+    margin-top: -10px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.form-area {
+    width: 350px;
+    height: 550px;
+    padding: 20px 30px 20px 30px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 20px;
+    margin-top: 30px;
+}
+h3 {
+    margin: 0px;  
+    padding: 0 0 20px;
+    font-weight: bold;
+    color: white;
+}
+.form-area p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: white;
+}
+.form-area input, select {
+    margin-bottom: 25px;
+    width: 250px;
+}
+.form-area input[type=text],
+.form-area input[type=password] {
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    height: 40px;
+    outline: none;
+    color: white;
+    display: 16px;
+}
+::placeholder {
+    color: aqua;
+}
+.form-area select{
+    margin-top: 20px;
+    padding: 10px 0;
+}
+.form-area input[type=submit] {
+    border: none;
+    height: 40px;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    background-color: indianred;
+    cursor: progress;
+    border-radius: 20px;
+}
+.form-area input[type=submit]:hover {
+    background-color: dimgrey;
+    color: rgb(17, 211, 218);
+}
+.form-area a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.heading{}
+
+    </style>
+    <body>
+        <a href="practice.html">
+            <p class="home">Home</p>
+        </a>
+        <div class="container">
+        <div class="form-area">
+            <form action="mainto:joshua2degreat@gmail.com">
+                <h3>Login</h3>
+                <p>Email</p>
+                <input type="email" name="email" id="" placeholder="your email">
+                <p>Password</p>
+                <input type="password" name="password" id="" placeholder="your password">
+                <p>Security Question</p>
+                <select name="Security Question" id="">
+                    <option value="what is ur pet's name?" id="">What is your pet's name?</option>
+                    <option value="" id="">Which city are you from?</option>
+                    <option value="" id="">What is your mother's middle name?</option>
+                </select>
+                <p></p>
+                <input type="text" name="" id="" placeholder="your answer here">
+                <input type="submit" value="sign in"><br>
+                <a href="#">Forget Password?</a>
+            </form>
+        </div>
+        <div class="heading">
+            <h1>The Mountains are calling you.</h1>
+        </div>
+        </div>
+    </body>
+</html>
